@@ -12,7 +12,8 @@ Start from the repo you cloned and worked on from previous class [simple-auth-se
 
 Make sure your API now tests and behaves like the following:
 
-> [!IMPORTANT] > `/auth/login` behaves the same as before but with **_DB_** integration
+> [!IMPORTANT]
+> `/auth/login` behaves the same as before but with **_DB_** integration
 
 `http://localhost:8080/users`
 ![log-in](./project-assets/mongo01.png)
