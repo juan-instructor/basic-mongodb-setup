@@ -15,10 +15,21 @@ Start from the repo you cloned and worked on from previous class [simple-auth-se
 
 Make sure your API now tests and behaves like the following:
 
+> [!NOTE]
+> Getting all users - DEMO only
+
 `http://localhost:8080/users`
 ![log-in](./project-assets/mongo01.png)
+
+> [!NOTE]
+> Query for a username/recipe
+
 `http://localhost:8080/users?name=<user-name>`
 ![recipes](./project-assets/mongo02.png)
+
+> [!NOTE]
+> Bad registration - email already taken
+
 `http://localhost:8080/auth/register`
 ![user-no-registered](./project-assets/mongo03.png)
 
